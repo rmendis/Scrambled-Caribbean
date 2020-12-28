@@ -17,7 +17,7 @@
     <AssemblyName>Scrambled Caribbean</AssemblyName>
     <RootNamespace>Scrambled Caribbean</RootNamespace>
     <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="UpdateConfig"><File>XML/Config.xml</File></UpdateDatabase><UpdateText id="UpdateText"><File>XML/Caribbean_Text.xml</File></UpdateText></FrontEndActions>]]></FrontEndActionData>
-    <InGameActionData><![CDATA[<InGameActions><ImportFiles id="ImportMap"><File>Maps/Caribbean.lua</File></ImportFiles></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><ImportFiles id="ImportMaps"><File>Maps/Caribbean.lua</File><File>Maps/Caribbean_XP2.lua</File></ImportFiles></InGameActions>]]></InGameActionData>
     <AssociationData><![CDATA[<Associations>
   <Reference type="Mod" title="Extended Great Barrier Reef" id="0d4f955c-7d7a-472c-9436-750d19339852" />
 </Associations>]]></AssociationData>
@@ -32,6 +32,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Maps\Caribbean.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Maps\Caribbean_XP2.lua">
       <SubType>Content</SubType>
     </Content>
     <Content Include="XML\Caribbean_Text.xml">
