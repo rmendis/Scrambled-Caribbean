@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Caribbean_Text -->
+<!-- Author: blkbutterfly74 -->
+<!-- DateCreated: 2/8/2018 1:40:31 PM -->
+<GameData>
+	<FrontEndText>
+
+		<!-- Texts for Maps -->
+		<Row Tag="LOC_CARIBBEAN_MAP_NAME">
+			<Text>Scrambled Caribbean</Text>
+		</Row>
+		<Row Tag="LOC_CARIBBEAN_MAP_DESCRIPTION">
+			<Text>An internally randomized map of the Carribbean.</Text>
+		</Row>
+
+	</FrontEndText>
+</GameData>
